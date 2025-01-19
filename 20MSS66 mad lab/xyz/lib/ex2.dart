@@ -39,13 +39,13 @@ class DisplayHelloState extends State<DisplayHello> {
                                 border: OutlineInputBorder(
                                     borderRadius: BorderRadius.all(Radius.circular(8)),
                                     borderSide: BorderSide(
-                                        color: Colors.amber.shade200
+                                        color: Colors.greenAccent.shade200
                                     )
                                 )   
                             ),
                         ),
                         MaterialButton(
-                            color: Colors.amberAccent[100],
+                            color: Colors.greenAccent,
                             onPressed: () {
                                 setState(() {
                                     greeting = 'Hi 👋🏻, ${textController.text}';
