@@ -12,34 +12,37 @@ class _PhoneState extends State<Phone> {
     List<String> areaCodes = ['040', '041', '050', '0400', '04'];
 
     final _formKey = GlobalKey<FormState>();
+    final _phoneController = TextEditingController();
     bool isValid = false;
     String? errMsg;
 
-    void validatePhNumber(String phone) {
-        setState(() {
-            phone = phone.replaceAll(' ', '');
+    String? validatePhNumber(String? phone) {
+        if (phone == null || phone.isEmpty) {
+            return 'Enter a valid phone number.';
+        }
 
-            bool hasValidCode = false;
-            int remLen = 0;
+        phone = phone.replaceAll(' ', '');
 
-            for (String areaCode in areaCodes) {
-                if (phone.startsWith(areaCode)) {
-                    hasValidCode = true;
-                    remLen = phone.length - areaCode.length;
-                    break;
-                }
+        bool hasValidCode = false;
+        int remLen = 0;
+
+        for (String areaCode in areaCodes) {
+            if (phone.startsWith(areaCode)) {
+                hasValidCode = true;
+                remLen = phone.length - areaCode.length;
+                break;
             }
+        }
 
-            if (!hasValidCode) {
-                errMsg = "invalid area code.";
-                return;
-            }
+        if (!hasValidCode) {
+            return "Invalid area code. Use 040, 041, 050, 0400, or 04";
+        }
 
-            if (remLen < 6 || remLen > 8) {
-                errMsg = 'invalid length phone number.';
-                return;
-            }
-        });
+        if (remLen < 6 || remLen > 8) {
+            return 'Number should have 6-8 digits after area code';
+        }
+
+        return null;
     }
 
     @override
@@ -54,62 +57,64 @@ class _PhoneState extends State<Phone> {
                             builder: (BuildContext context) {
                                 return Padding(
                                     padding: EdgeInsets.only(
-                                        bottom: MediaQuery.of(context).viewInsets.bottom,
+                                        bottom: MediaQuery.of(context).viewInsets.bottom + 14,
                                         left: 14,
                                         right: 14, 
                                         top: 14
                                     ),
 
-                                    child: Container(
-                                        padding: EdgeInsets.only(bottom: 20),
-
-                                        child: Form(
-                                            key: _formKey,
-                                            child: Column(
-                                                mainAxisSize: MainAxisSize.min,
-                                                crossAxisAlignment: CrossAxisAlignment.end,
-                                                children: [
-                                                    TextFormField(
-                                                        decoration: InputDecoration(
-                                                            labelText: 'Phone Number',
-                                                            hintText: 'e.g., 0401234567', 
-                                                            border: const OutlineInputBorder(),
-                                                        ),
-                                                        keyboardType: TextInputType.number,
-                                                        validator: (value) {
-                                                            validatePhNumber(value as String);
-                                                            if (errMsg != null) {
-                                                                return errMsg;
-                                                            } else {
-                                                                return 'phone number is ok!';
-                                                            }
-                                                        },
-                                                        inputFormatters: [
-                                                            FilteringTextInputFormatter.digitsOnly,
-                                                            LengthLimitingTextInputFormatter(12)
-                                                        ],
+                                    child: Form(
+                                        key: _formKey,
+                                        child: Column(
+                                            mainAxisSize: MainAxisSize.min,
+                                            children: [
+                                                TextFormField(
+                                                    controller: _phoneController,
+                                                    decoration: InputDecoration(
+                                                        labelText: 'Phone Number',
+                                                        hintText: 'e.g., 040 123 4567', 
+                                                        border: const OutlineInputBorder(),
                                                     ),
+                                                    keyboardType: TextInputType.number,
+                                                    validator: validatePhNumber,
+                                                    inputFormatters: [
+                                                        FilteringTextInputFormatter.digitsOnly,
+                                                        LengthLimitingTextInputFormatter(12)
+                                                    ],
+                                                ),
 
-                                                    const SizedBox(height: 16,),
+                                                const SizedBox(height: 16,),
 
-                                                    ElevatedButton(
-                                                        style: ElevatedButton.styleFrom(
-                                                            shape: const CircleBorder(),
-                                                            padding: EdgeInsets.all(14)
-                                                        ),
-                                                        onPressed: () {
-                                                            if (_formKey.currentState!.validate()) {
+                                                Row(
+                                                    mainAxisAlignment:MainAxisAlignment.end,
+                                                    children: [
+                                                        TextButton(
+                                                            onPressed: () {
                                                                 Navigator.pop(context);
-                                                            }
-                                                        },
-                                                        child: const Icon(
-                                                            Icons.check_circle,
-                                                            color: Colors.greenAccent,
+                                                            },
+                                                            child: const Text('Cancel') 
                                                         ),
-                                                    )
-                                                ],
-                                            ),
-                                        )
+                                                        ElevatedButton(
+                                                            onPressed: () {
+                                                                if (_formKey.currentState!.validate()) {
+                                                                    ScaffoldMessenger.of(context).showSnackBar(
+                                                                        SnackBar(
+                                                                            content: Text('Valid Phone Number: ${_phoneController.text}'),
+                                                                            backgroundColor: Colors.green,
+                                                                        )
+                                                                    );
+                                                                    Navigator.pop(context);
+                                                                }
+                                                            },
+                                                            child: const Icon(
+                                                                Icons.check_circle,
+                                                                color: Colors.greenAccent,
+                                                            ),
+                                                        ),
+                                                    ],
+                                                )
+                                            ],
+                                        ),
                                     )
                                 );
                             }
