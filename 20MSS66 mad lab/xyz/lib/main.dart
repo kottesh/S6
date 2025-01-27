@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:xyz/ex10.dart';
+import 'package:xyz/ex13.dart';
 
 // void main() {
 //     runApp(
@@ -27,7 +27,7 @@ void main() {
                 fontFamily: 'DM Sans',
                 useMaterial3: true
             ),
-            home: OnBoard()
+            home: LoginScreen()
         )
     );
 }
