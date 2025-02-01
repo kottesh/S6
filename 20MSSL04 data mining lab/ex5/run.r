@@ -6,11 +6,11 @@ data$Price[is.na(data$Price)] <- 0
 data$DiscountedPrice <- as.numeric(gsub("[^0-9].", "", data$DiscountedPrice))
 data$DiscountedPrice[is.na(data$DiscountedPrice)] <- 0
 
-price_range <- range(data$Price)
+price_range <- range(data$Price) # returns min ans max
 
 # finding bin breaks
 bin_width <- (price_range[2] - price_range[1]) / 5 # 5 says the no of bins i.e., groups.
-bin_breaks = seq(price_range[1], price_range[2], by=bin_width)
+bin_breaks <- seq(price_range[1], price_range[2], by=bin_width)
 
 #print(bin_breaks)
 
@@ -25,7 +25,7 @@ data$bin <- cut(
 bin_summary <- aggregate(
   cbind(Price, DiscountedPrice) ~ bin, # ~ bin means group by
   data = data,
-  FUN = function(x) round(median(x), 2)
+  FUN = function(x) round(mean(x), 2)
 )
 
 print(bin_summary)

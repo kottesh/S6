@@ -31,5 +31,5 @@ bin_summary <- aggregate(
 print(bin_summary)
 
 bin_summary$discount_percentage <- round((bin_summary$DiscountedPrice / bin_summary$Price) * 100, 2)
-print(bin_summary)
+View(bin_summary)
 

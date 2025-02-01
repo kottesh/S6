@@ -32,7 +32,7 @@ bounds <- data.frame(
 
 # View(bin_bounds)
 
-data$smoothPrice <- data$Price
+data$smoothPrice <- 0
 
 for (i in 1:nrow(bounds)) {
   low = bounds$lower[i]
