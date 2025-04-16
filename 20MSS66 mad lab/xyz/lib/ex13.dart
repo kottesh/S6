@@ -17,6 +17,38 @@ class _LoginScreenState extends State<LoginScreen> {
     final _password = TextEditingController();
     final db = DB();
 
+    void _showMessage(BuildContext context, String message, Color color) {
+        ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+                backgroundColor: color,
+                content: Text(message),
+            )
+        );
+    } 
+
+    Future<void> _handleSubmit(BuildContext context) async {
+        if (_formKey.currentState!.validate()) {
+            if (_isLogin) {
+                if (await db.authenticateUser(_username.text, _password.text)) {
+                    _showMessage(context, 'Welcome Back! ${_username.text}', Colors.green);
+                } else {
+                    _showMessage(context, 'Error occured during login.', Colors.red);
+                }
+            } else {
+                int user_id = await db.addUser(_username.text, _password.text);
+                                                                
+                if (user_id == -1) {
+                    _showMessage(context, 'Error occured during registration', Colors.red);
+                } else {
+                    _showMessage(context, 'Registerd. Login now!', Colors.green);
+                    setState(() {
+                        _isLogin = !_isLogin;
+                    });
+                }
+            }
+        }
+    }
+
     @override
     Widget build(BuildContext context) {
         return SafeArea(
@@ -65,7 +97,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                             ),
                                             validator: (value) {
                                                 if (value == null || value.isEmpty) {
-                                                    return 'username is empty';
+                                                    return 'Username is empty';
                                                 }
                     
                                                 return null;
@@ -93,9 +125,8 @@ class _LoginScreenState extends State<LoginScreen> {
                                             obscureText: !_isVisible,
                                             validator: (value) {
                                                 if (value == null || value.isEmpty) {
-                                                    return 'password is empty';
+                                                    return 'Password is empty';
                                                 }
-                    
                                                 return null;
                                             },
                                         ),
@@ -107,9 +138,9 @@ class _LoginScreenState extends State<LoginScreen> {
                                             children: [
                                                 TextButton(
                                                     onPressed: () {
-                                                        _username.clear();
-                                                        _password.clear();
                                                         setState(() {
+                                                            _username.clear();
+                                                            _password.clear();
                                                             _isLogin = !_isLogin;
                                                         });
                                                     },
@@ -124,46 +155,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     
                                                 ElevatedButton(
                                                     onPressed: () async {
-                                                        if (_formKey.currentState!.validate()) {
-                                                            if (_isLogin) {
-                                                                if (await db.authenticateUser(_username.text, _password.text)) {
-                                                                    ScaffoldMessenger.of(context).showSnackBar(
-                                                                        SnackBar(
-                                                                            backgroundColor: Colors.green,
-                                                                            content: Text('Welcome Back! ${_username.text}'),
-                                                                        )
-                                                                    );
-                                                                } else {
-                                                                    ScaffoldMessenger.of(context).showSnackBar(
-                                                                        SnackBar(
-                                                                            backgroundColor: Colors.red,
-                                                                            content: Text('Error occured during login.'),
-                                                                        )
-                                                                    );
-                                                                }
-                                                            } else {
-                                                                int user_id = await db.addUser(_username.text, _password.text);
-                                                                
-                                                                if (user_id == -1) {
-                                                                    ScaffoldMessenger.of(context).showSnackBar(
-                                                                        SnackBar(
-                                                                            backgroundColor: Colors.red,
-                                                                            content: Text('Error occured during registration.'),
-                                                                        )
-                                                                    );
-                                                                } else {
-                                                                    ScaffoldMessenger.of(context).showSnackBar(
-                                                                        SnackBar(
-                                                                            backgroundColor: Colors.green,
-                                                                            content: Text('Registered. Login now!'),
-                                                                        )
-                                                                    );
-                                                                    setState(() {
-                                                                        _isLogin = !_isLogin;
-                                                                    });
-                                                                }
-                                                            }
-                                                        }
+                                                        await _handleSubmit(context);
                                                     },
                                                     child: Text(
                                                         _isLogin ? 'Login' : 'Register',

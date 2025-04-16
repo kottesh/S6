@@ -1,0 +1,11 @@
+Temperature,Humidity,Wind_Speed,Rainfall,Cloud_Cover,Air_Pressure,Storm_Warning,Natural_Calamity
+Low,High,Low,None,Clear,High,No,No
+Medium,Medium,Medium,Light,Partial,Normal,Yes,Yes
+High,Low,High,Heavy,Overcast,Low,Yes,Yes
+Medium,High,Medium,None,Clear,Normal,No,No
+High,Low,High,Light,Partial,Low,No,No
+Low,Medium,Low,Heavy,Overcast,High,Yes,Yes
+High,High,High,None,Clear,Normal,Yes,Yes
+Medium,Low,Low,Light,Partial,Low,No,No
+Low,Medium,Medium,Heavy,Overcast,High,Yes,Yes
+High,High,High,None,Clear,Normal,No,No

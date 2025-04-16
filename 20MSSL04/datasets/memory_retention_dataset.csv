@@ -1,0 +1,201 @@
+User_ID,Topic_Studied,Study_Method,Time_Spent_mins,Breaks_Taken,Recall_After_1_Hour,Recall_After_1_Day ,Recall_After_1_Week ,Distractions_Present,Preferred_Learning_Method
+U001,Cyber Security,Hands-on,38,5,74,60,43,Yes,Lecture
+U002,Python Basics,Video,108,5,80,69,48,Yes,Reading
+U003,Data Structures,Reading,116,5,99,90,68,Yes,Video
+U004,Algorithms,Video,60,5,92,83,64,No,Lecture
+U005,Python Basics,Video,115,1,75,60,41,Yes,Hands-on
+U006,Deep Learning,Lecture,111,0,99,88,78,Yes,Lecture
+U007,Deep Learning,Lecture,46,1,92,77,52,No,Hands-on
+U008,Computer Vision,Lecture,84,3,77,71,54,Yes,Hands-on
+U009,Computer Vision,Lecture,33,1,95,86,62,Yes,Reading
+U010,Computer Vision,Hands-on,48.7,0,98,84,70,Yes,Video
+U011,Data Science,Hands-on,48.7,3,77,67,49,Yes,Video
+U012,Neural Networks,Lecture,51,2,100,89,64,Yes,Reading
+U013,Python Basics,Hands-on,50,3,96,89,69,Yes,Video
+U014,Python Basics,Hands-on,104,2,79,64,40,Yes,Video
+U015,Neural Networks,Reading,116,0,70,59,48,No,Reading
+U016,Algorithms,Lecture,46,5,74,65,44,Yes,Hands-on
+U017,Algorithms,Reading,78,2,89,82,67,Yes,Reading
+U018,Deep Learning,Lecture,68,1,92,83,63,No,Reading
+U019,AI Ethics,Lecture,59,5,72,67,47,No,Video
+U020,Data Science,Hands-on,71,4,95,82,69,Yes,Reading
+U021,Deep Learning,Reading,85,5,85,75,65,Yes,Lecture
+U022,Python Basics,Reading,41,2,73,61,40,Yes,Lecture
+U023,Machine Learning,Video,118,3,74,68,52,No,Lecture
+U024,Algorithms,Lecture,110,1,91,86,66,Yes,Video
+U025,Data Structures,Reading,95,0,81,75,56,No,Video
+U026,Algorithms,Hands-on,43,4,93,80,58,No,Video
+U027,AI Ethics,Hands-on,120,0,72,60,43,No,Video
+U028,Computer Vision,Lecture,40,2,94,89,67,Yes,Hands-on
+U029,Cyber Security,Reading,101,4,99,86,64,Yes,Hands-on
+U030,Cyber Security,Reading,75,3,93,78,67,No,Hands-on
+U031,Cyber Security,Video,112,1,98,88,67,Yes,Hands-on
+U032,Data Science,Video,61,3,71,56,38,No,Hands-on
+U033,Deep Learning,Hands-on,62,2,84,79,58,Yes,Hands-on
+U034,Deep Learning,Lecture,99,4,86,74,49,No,Reading
+U035,Algorithms,Hands-on,78,4,98,88,65,Yes,Hands-on
+U036,Machine Learning,Lecture,42,5,90,77,66,Yes,Reading
+U037,Algorithms,Hands-on,62,5,91,77,63,Yes,Reading
+U038,Python Basics,Video,67,2,87,80,67,No,Reading
+U039,Data Science,Hands-on,92,5,81,67,46,No,Video
+U040,Cyber Security,Hands-on,106,4,71,57,32,Yes,Video
+U041,AI Ethics,Hands-on,94,0,76,66,50,Yes,Hands-on
+U042,AI Ethics,Reading,60,2,79,68,54,Yes,Reading
+U043,Deep Learning,Hands-on,88,0,83,75,57,Yes,Lecture
+U044,Neural Networks,Lecture,114,2,81,67,48,Yes,Reading
+U045,Data Science,Reading,47,4,93,78,67,Yes,Video
+U046,Python Basics,Hands-on,112,1,98,86,68,No,Hands-on
+U047,Computer Vision,Video,49,1,93,80,59,Yes,Video
+U048,Deep Learning,Hands-on,48,1,77,66,51,Yes,Video
+U049,Neural Networks,Hands-on,35,5,82,76,56,No,Reading
+U050,Machine Learning,Hands-on,84,0,82,70,60,Yes,Reading
+U051,Cyber Security,Hands-on,54,4,95,89,79,Yes,Reading
+U052,Python Basics,Reading,69,1,90,77,56,Yes,Video
+U053,Machine Learning,Hands-on,42,3,75,60,38,No,Hands-on
+U054,Python Basics,Video,63,5,90,85,62,Yes,Hands-on
+U055,Cyber Security,Hands-on,50,4,95,80,61,Yes,Reading
+U056,Deep Learning,Video,97,0,92,83,61,No,Video
+U057,Computer Vision,Lecture,87,4,87,75,58,No,Lecture
+U058,Neural Networks,Hands-on,33,1,85,76,62,No,Hands-on
+U059,AI Ethics,Reading,96,2,95,89,73,No,Reading
+U060,Computer Vision,Reading,84,3,70,64,50,No,Lecture
+U061,Data Science,Video,72,1,90,82,58,No,Reading
+U062,Deep Learning,Hands-on,101,3,78,64,52,No,Hands-on
+U063,Data Structures,Lecture,113,4,77,67,47,Yes,Reading
+U064,Neural Networks,Hands-on,87,0,74,65,54,Yes,Lecture
+U065,Deep Learning,Hands-on,30,2,73,66,49,No,Hands-on
+U066,Python Basics,Lecture,31,3,70,60,38,No,Reading
+U067,Cyber Security,Video,104,4,80,71,49,Yes,Reading
+U068,Deep Learning,Reading,46,2,80,69,55,Yes,Lecture
+U069,Computer Vision,Video,38,0,90,82,65,No,Hands-on
+U070,Cyber Security,Hands-on,68,2,100,94,75,No,Hands-on
+U071,Machine Learning,Hands-on,39,3,88,79,64,No,Lecture
+U072,Data Science,Lecture,85,2,77,68,58,Yes,Lecture
+U073,Cyber Security,Video,50,4,81,68,48,Yes,Hands-on
+U074,Machine Learning,Reading,83,2,83,70,47,Yes,Lecture
+U075,Data Science,Video,117,3,79,69,47,No,Video
+U076,Machine Learning,Reading,48,3,80,71,55,No,Reading
+U077,Neural Networks,Lecture,57,2,72,66,50,No,Video
+U078,Data Science,Video,91,2,71,63,52,Yes,Lecture
+U079,Algorithms,Reading,58,1,70,64,44,No,Lecture
+U080,Machine Learning,Video,52,1,86,72,54,No,Video
+U081,Data Structures,Video,86,1,91,83,62,Yes,Hands-on
+U082,Deep Learning,Hands-on,91,1,75,70,50,No,Video
+U083,Algorithms,Hands-on,95,4,86,80,65,No,Video
+U084,Deep Learning,Hands-on,85,1,92,77,54,Yes,Reading
+U085,Data Structures,Hands-on,50,3,84,73,49,Yes,Hands-on
+U086,AI Ethics,Video,109,1,79,73,55,No,Hands-on
+U087,Data Science,Hands-on,49,1,89,84,67,No,Video
+U088,Deep Learning,Lecture,50,3,72,63,43,Yes,Hands-on
+U089,Cyber Security,Hands-on,89,3,91,86,62,Yes,Reading
+U090,Algorithms,Hands-on,69,2,98,85,62,Yes,Hands-on
+U091,Computer Vision,Reading,87,0,90,80,59,No,Lecture
+U092,AI Ethics,Lecture,51,1,81,73,59,Yes,Hands-on
+U093,Algorithms,Reading,85,0,91,84,68,Yes,Reading
+U094,Deep Learning,Hands-on,85,3,79,67,56,Yes,Reading
+U095,Python Basics,Lecture,41,1,83,77,60,No,Lecture
+U096,Deep Learning,Hands-on,117,1,100,90,65,Yes,Lecture
+U097,AI Ethics,Reading,90,1,93,79,64,Yes,Hands-on
+U098,Data Science,Video,90,5,83,70,53,No,Lecture
+U099,Data Structures,Hands-on,48,4,88,82,60,Yes,Reading
+U100,Computer Vision,Hands-on,111,0,91,80,67,No,Lecture
+U101,Python Basics,Hands-on,101,0,73,60,47,Yes,Lecture
+U102,Cyber Security,Lecture,67,0,95,82,66,Yes,Video
+U103,Algorithms,Hands-on,58,5,74,67,55,No,Reading
+U104,Python Basics,Video,119,0,76,66,52,No,Reading
+U105,Algorithms,Lecture,101,1,96,88,67,No,Video
+U106,Neural Networks,Video,91,4,86,76,63,No,Video
+U107,Cyber Security,Reading,70,5,88,80,66,No,Lecture
+U108,Deep Learning,Reading,42,2,87,78,63,No,Video
+U109,Computer Vision,Reading,32,2,99,84,74,No,Reading
+U110,Cyber Security,Reading,32,1,92,80,58,No,Hands-on
+U111,Neural Networks,Hands-on,98,4,91,76,63,No,Video
+U112,Machine Learning,Lecture,49,1,85,79,69,Yes,Hands-on
+U113,Neural Networks,Lecture,107,5,94,85,67,Yes,Reading
+U114,AI Ethics,Reading,89,1,89,80,56,No,Video
+U115,Neural Networks,Hands-on,82,1,90,75,60,No,Hands-on
+U116,AI Ethics,Reading,48,1,75,69,50,Yes,Hands-on
+U117,Neural Networks,Hands-on,80,5,70,57,44,Yes,Lecture
+U118,Neural Networks,Hands-on,51,0,71,58,48,Yes,Reading
+U119,Cyber Security,Video,87,0,74,59,36,Yes,Video
+U120,Cyber Security,Hands-on,81,2,94,87,77,Yes,Hands-on
+U121,Data Structures,Reading,56,0,86,78,61,Yes,Hands-on
+U122,Neural Networks,Hands-on,53,1,73,61,42,Yes,Video
+U123,Data Science,Reading,49,3,80,75,61,Yes,Lecture
+U124,Python Basics,Lecture,119,4,83,72,61,No,Hands-on
+U125,Machine Learning,Reading,119,4,80,72,52,Yes,Video
+U126,Computer Vision,Video,71,1,82,69,58,No,Lecture
+U127,Machine Learning,Lecture,49,2,99,89,66,No,Reading
+U128,Data Science,Lecture,61,3,77,64,40,No,Hands-on
+U129,Deep Learning,Video,73,1,81,74,61,No,Lecture
+U130,Python Basics,Video,98,0,79,65,54,No,Video
+U131,Neural Networks,Hands-on,73,4,77,63,53,Yes,Video
+U132,Neural Networks,Hands-on,89,2,89,77,55,No,Lecture
+U133,Python Basics,Reading,32,4,89,74,50,Yes,Lecture
+U134,Data Science,Video,40,3,88,82,57,No,Lecture
+U135,Algorithms,Lecture,32,0,72,65,41,Yes,Video
+U136,Neural Networks,Reading,51,5,85,70,53,No,Hands-on
+U137,Computer Vision,Video,45,4,73,66,51,Yes,Video
+U138,Python Basics,Lecture,44,4,81,67,48,No,Reading
+U139,Cyber Security,Reading,89,0,89,78,56,Yes,Video
+U140,Neural Networks,Video,114,4,100,87,76,Yes,Video
+U141,Neural Networks,Hands-on,73,2,89,82,71,No,Lecture
+U142,Data Structures,Hands-on,99,0,77,72,49,No,Hands-on
+U143,Neural Networks,Lecture,83,3,100,91,80,Yes,Lecture
+U144,Data Science,Reading,78,4,87,81,62,No,Video
+U145,Machine Learning,Hands-on,85,3,78,73,63,No,Lecture
+U146,Algorithms,Reading,50,0,81,66,55,No,Hands-on
+U147,Data Science,Hands-on,46,1,86,75,62,No,Lecture
+U148,Neural Networks,Reading,30,3,92,77,52,No,Hands-on
+U149,Data Structures,Video,70,2,79,67,43,No,Lecture
+U150,Python Basics,Hands-on,105,5,93,85,70,No,Video
+U151,Data Science,Video,63,2,84,72,52,Yes,Reading
+U152,Python Basics,Video,40,5,71,66,55,No,Lecture
+U153,Python Basics,Hands-on,113,0,75,63,52,Yes,Reading
+U154,Deep Learning,Video,111,3,82,74,53,Yes,Reading
+U155,Data Structures,Video,68,0,78,73,60,Yes,Video
+U156,Python Basics,Reading,70,5,80,74,54,Yes,Video
+U157,Data Science,Hands-on,32,5,97,87,77,Yes,Reading
+U158,Machine Learning,Video,111,4,79,69,55,No,Lecture
+U159,Algorithms,Video,40,2,90,77,54,Yes,Reading
+U160,Neural Networks,Lecture,78,0,86,71,57,No,Hands-on
+U161,Machine Learning,Reading,44,4,71,59,45,No,Lecture
+U162,Cyber Security,Video,36,5,92,79,56,Yes,Lecture
+U163,Algorithms,Lecture,51,0,78,73,58,No,Video
+U164,Data Science,Reading,48,1,99,86,63,No,Hands-on
+U165,Python Basics,Hands-on,37,1,74,65,55,Yes,Video
+U166,Neural Networks,Video,115,0,75,62,42,No,Hands-on
+U167,Python Basics,Hands-on,34,4,85,71,54,No,Reading
+U168,AI Ethics,Video,70,0,98,91,79,No,Lecture
+U169,Neural Networks,Reading,71,0,80,73,57,Yes,Reading
+U170,Algorithms,Video,38,0,91,79,69,No,Lecture
+U171,Cyber Security,Lecture,72,3,70,58,37,Yes,Reading
+U172,Deep Learning,Video,99,3,91,77,62,No,Video
+U173,AI Ethics,Lecture,49,5,78,69,58,No,Hands-on
+U174,Data Structures,Reading,119,4,95,83,64,Yes,Video
+U175,Python Basics,Reading,109,2,80,66,44,No,Lecture
+U176,Data Science,Lecture,38,1,83,74,63,No,Reading
+U177,Cyber Security,Hands-on,35,0,70,57,43,Yes,Reading
+U178,Cyber Security,Hands-on,75,3,93,81,68,No,Hands-on
+U179,Python Basics,Reading,120,5,85,79,55,No,Lecture
+U180,Deep Learning,Video,36,1,73,62,39,Yes,Video
+U181,Python Basics,Hands-on,113,0,92,78,68,Yes,Lecture
+U182,Data Science,Video,114,5,98,92,71,No,Reading
+U183,Deep Learning,Hands-on,104,5,83,72,57,No,Hands-on
+U184,Machine Learning,Lecture,40,2,91,82,70,Yes,Hands-on
+U185,Algorithms,Hands-on,78,1,80,66,53,No,Video
+U186,AI Ethics,Video,57,0,95,83,70,Yes,Video
+U187,Python Basics,Reading,57,1,78,68,49,No,Reading
+U188,Algorithms,Lecture,89,1,81,70,55,No,Lecture
+U189,Python Basics,Reading,111,4,86,72,48,No,Reading
+U190,Computer Vision,Hands-on,59,2,73,66,46,Yes,Hands-on
+U191,Cyber Security,Video,90,5,82,76,63,Yes,Lecture
+U192,Python Basics,Hands-on,33,2,91,84,60,Yes,Lecture
+U193,Machine Learning,Hands-on,37,2,81,75,53,No,Reading
+U194,Computer Vision,Lecture,33,1,78,63,41,No,Reading
+U195,Neural Networks,Lecture,95,5,97,86,74,No,Hands-on
+U196,Cyber Security,Lecture,65,5,82,71,49,No,Lecture
+U197,Neural Networks,Lecture,100,0,83,70,51,Yes,Hands-on
+U198,Deep Learning,Lecture,38,5,73,60,43,No,Video
+U199,Deep Learning,Video,116,2,77,68,49,Yes,Video
+U200,Deep Learning,Hands-on,76,2,86,72,47,No,Video

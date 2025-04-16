@@ -1,0 +1,201 @@
+User_ID,Topic,Time_Spent,Retention_Score,Difficulty_Level,Study_Frequency,Previous_Performance,Fatigue_Level,Material_Type,Study_Mode
+46,Literature,50.35,60.38,Hard,7,55.85,2,Notes,Online Forum
+44,Economics,94.49,50.21,Medium,7,90.55,2,Notes,Online Forum
+11,Economics,86.7,89.66,Easy,1,95.19,5,Online Course,Group
+46,Math,130.25,53.81,Hard,4,84.0,5,Flashcards,Online Forum
+12,Economics,34.88,60.33,Hard,1,60.22,5,Textbook,Group
+41,Biology,141.2,83.52,Medium,4,51.06,3,Video,Online Forum
+31,Biology,33.5,66.94,Easy,3,58.81,4,Flashcards,Tutor-led
+18,Physics,141.78,93.73,Hard,6,80.51,2,Video,Group
+7,Science,77.47,56.79,Easy,1,63.24,5,Notes,Online Forum
+42,Economics,146.52,94.98,Easy,4,73.59,3,Flashcards,Online Forum
+46,History,81.89,85.48,Medium,7,61.42,3,Flashcards,Group
+38,History,145.44,66.02,Hard,7,56.75,1,Online Course,Online Forum
+26,Physics,47.25,71.07,Hard,3,89.77,2,Flashcards,Group
+21,Biology,18.88,73.73,Easy,5,97.65,4,Video,Group
+38,Science,42.35,61.94,Easy,6,95.91,2,Textbook,Group
+26,Physics,42.28,83.88,Easy,3,78.55,4,Notes,Tutor-led
+7,Biology,54.64,69.97,Hard,7,86.84,5,Textbook,Solo
+34,Economics,54.7,62.15,Hard,3,74.67,1,Video,Tutor-led
+12,Biology,158.14,90.5,Hard,2,94.54,5,Notes,Solo
+33,Math,95.79,85.43,Hard,1,76.48,1,Online Course,Group
+17,History,137.59,59.11,Easy,7,70.3,3,Online Course,Group
+2,Physics,52.35,96.6,Easy,6,52.8,4,Flashcards,Solo
+36,Literature,129.97,50.04,Hard,4,65.48,5,Video,Tutor-led
+6,Math,32.63,79.94,Hard,1,99.41,2,Flashcards,Tutor-led
+24,Chemistry,57.51,70.58,Medium,1,68.73,3,Notes,Online Forum
+1,Literature,137.94,65.24,Medium,5,84.89,5,Video,Solo
+44,Math,154.51,82.37,Easy,1,68.07,4,Textbook,Solo
+42,Science,29.73,94.7,Medium,6,99.4,4,Video,Group
+1,History,99.67,83.15,Hard,7,98.68,1,Flashcards,Solo
+34,Science,26.38,68.65,Medium,6,98.59,1,Online Course,Group
+46,Literature,79.17,88.69,Medium,7,67.06,3,Notes,Group
+34,Science,103.7,91.32,Easy,7,88.54,2,Textbook,Group
+41,Science,171.28,93.82,Hard,4,95.36,2,Notes,Solo
+42,Chemistry,175.84,99.85,Easy,1,56.71,4,Video,Online Forum
+49,Economics,67.33,63.79,Easy,3,67.67,5,Textbook,Group
+10,Literature,15.45,66.24,Hard,2,75.95,4,Flashcards,Online Forum
+13,Physics,31.53,89.35,Easy,4,61.01,2,Textbook,Group
+11,Science,154.57,75.43,Medium,3,77.61,5,Online Course,Online Forum
+22,Science,79.17,85.47,Easy,4,56.87,2,Textbook,Online Forum
+14,Science,67.86,90.92,Medium,4,96.93,4,Video,Online Forum
+26,Science,93.63,99.44,Medium,7,55.07,5,Flashcards,Group
+3,Economics,116.27,52.32,Easy,6,63.98,4,Notes,Solo
+8,Math,111.94,59.85,Medium,2,92.51,4,Notes,Tutor-led
+2,Literature,91.75,91.44,Hard,4,67.9,5,Notes,Online Forum
+17,Literature,137.58,61.48,Hard,3,57.61,3,Video,Online Forum
+40,Science,172.24,62.6,Easy,6,96.43,2,Flashcards,Solo
+22,Physics,65.54,62.58,Medium,6,84.72,4,Flashcards,Tutor-led
+16,History,112.97,88.47,Hard,6,94.37,2,Online Course,Online Forum
+43,Math,175.35,60.46,Medium,5,56.09,4,Textbook,Group
+25,Physics,87.54,65.97,Hard,6,92.8,5,Notes,Tutor-led
+32,Biology,169.14,86.04,Medium,5,75.61,2,Textbook,Solo
+11,Literature,170.5,50.37,Easy,5,59.47,2,Textbook,Tutor-led
+39,Biology,64.3,65.76,Easy,4,97.48,4,Flashcards,Group
+36,Economics,57.95,56.51,Medium,4,96.48,3,Video,Solo
+20,Science,178.45,64.91,Easy,7,91.59,4,Flashcards,Tutor-led
+15,Math,133.19,85.39,Easy,1,70.93,3,Online Course,Tutor-led
+4,Economics,36.23,54.34,Medium,3,88.49,1,Flashcards,Solo
+10,Math,139.8,72.92,Medium,2,52.87,5,Notes,Group
+49,Chemistry,148.38,55.5,Medium,7,80.86,2,Textbook,Group
+34,Physics,173.09,97.05,Medium,2,89.24,2,Flashcards,Online Forum
+21,Science,155.24,81.5,Easy,5,66.83,1,Textbook,Online Forum
+8,Math,105.57,91.1,Hard,4,68.85,4,Notes,Group
+45,Economics,73.51,90.06,Easy,1,93.5,3,Textbook,Group
+46,Economics,145.67,55.36,Easy,5,88.99,1,Video,Solo
+1,Physics,95.66,85.47,Medium,1,68.3,1,Flashcards,Online Forum
+35,History,63.24,79.56,Easy,5,62.98,4,Video,Solo
+25,Physics,122.49,81.98,Medium,5,90.67,5,Flashcards,Online Forum
+22,Science,114.31,70.54,Hard,7,69.84,5,Video,Tutor-led
+26,Economics,15.2,53.7,Easy,5,92.65,1,Video,Tutor-led
+15,Chemistry,118.95,91.36,Easy,7,71.88,1,Flashcards,Online Forum
+12,Physics,100.61,58.47,Easy,5,90.52,4,Notes,Online Forum
+30,History,92.82,85.42,Hard,4,95.24,3,Textbook,Group
+10,Physics,29.02,74.62,Easy,1,64.95,2,Textbook,Tutor-led
+10,Physics,30.19,97.49,Easy,2,87.19,1,Online Course,Tutor-led
+11,Economics,135.61,65.05,Easy,3,60.11,4,Flashcards,Solo
+30,History,145.72,64.15,Easy,7,88.6,5,Video,Solo
+27,History,165.33,79.09,Hard,1,76.5,2,Notes,Solo
+39,Math,144.66,69.93,Easy,5,99.41,2,Flashcards,Tutor-led
+13,Economics,177.45,56.21,Easy,4,53.24,5,Notes,Solo
+41,Literature,163.65,63.87,Medium,1,75.22,2,Video,Solo
+42,Science,96.02,61.46,Easy,7,98.51,2,Video,Solo
+25,Biology,116.29,90.59,Hard,2,86.2,2,Online Course,Online Forum
+33,Biology,109.61,86.85,Medium,6,95.1,3,Flashcards,Tutor-led
+34,Chemistry,147.55,50.85,Easy,6,55.81,3,Flashcards,Tutor-led
+37,Physics,52.48,80.81,Easy,7,64.66,2,Video,Group
+8,Physics,150.5,50.05,Easy,2,55.79,1,Notes,Online Forum
+22,Chemistry,87.28,98.15,Easy,3,79.59,4,Notes,Online Forum
+42,Science,55.87,87.61,Easy,2,66.13,4,Video,Tutor-led
+14,Biology,171.02,58.61,Hard,1,86.04,3,Notes,Tutor-led
+1,History,137.15,87.39,Easy,1,54.16,1,Notes,Group
+13,Math,85.12,66.12,Easy,3,90.14,4,Video,Tutor-led
+50,History,66.62,93.45,Medium,1,53.95,3,Flashcards,Tutor-led
+6,Chemistry,143.22,79.21,Easy,7,64.96,2,Textbook,Group
+44,History,104.66,59.07,Medium,1,86.94,4,Textbook,Tutor-led
+13,History,81.14,90.48,Hard,4,51.65,4,Textbook,Online Forum
+16,Physics,173.58,94.41,Hard,1,52.3,4,Online Course,Online Forum
+10,Physics,132.17,61.6,Medium,6,57.54,1,Textbook,Online Forum
+16,Physics,108.6,98.58,Medium,3,98.67,5,Notes,Tutor-led
+10,Math,73.69,93.76,Medium,6,72.96,5,Video,Group
+5,Economics,162.61,98.69,Medium,5,67.06,3,Notes,Solo
+20,Literature,101.13,75.43,Easy,6,56.16,5,Online Course,Solo
+18,Economics,64.35,69.63,Hard,7,99.96,3,Online Course,Tutor-led
+6,Science,77.43,70.88,Easy,4,96.06,3,Textbook,Tutor-led
+25,History,19.5,84.09,Easy,5,65.22,4,Online Course,Online Forum
+43,Science,177.19,59.56,Hard,6,75.05,4,Online Course,Online Forum
+32,Math,24.65,56.05,Easy,7,53.88,5,Notes,Solo
+7,Science,63.06,63.89,Medium,3,69.68,4,Notes,Group
+11,Science,66.91,52.98,Easy,3,60.71,4,Video,Online Forum
+40,Economics,76.72,76.65,Medium,2,69.92,1,Online Course,Solo
+36,Physics,159.97,99.44,Hard,5,72.68,3,Textbook,Tutor-led
+19,Math,140.43,78.62,Easy,3,88.91,1,Video,Tutor-led
+45,Science,54.19,62.8,Medium,5,77.02,3,Notes,Solo
+6,Science,72.34,72.82,Medium,3,92.78,3,Video,Tutor-led
+22,History,176.75,84.66,Medium,2,60.75,4,Notes,Solo
+35,Science,155.69,90.16,Hard,5,57.68,5,Online Course,Group
+1,Physics,115.81,98.93,Medium,2,76.87,1,Notes,Group
+37,Physics,24.73,67.75,Medium,5,78.67,3,Notes,Online Forum
+47,History,25.33,87.94,Easy,5,79.1,5,Textbook,Online Forum
+38,Literature,67.79,71.9,Easy,7,52.54,5,Textbook,Online Forum
+23,Science,127.34,68.15,Easy,4,84.44,3,Notes,Online Forum
+42,Science,136.81,87.54,Easy,4,88.95,5,Flashcards,Group
+39,Biology,130.51,51.21,Hard,4,81.5,1,Textbook,Group
+1,Literature,82.02,95.86,Medium,3,65.07,3,Video,Tutor-led
+20,History,21.64,76.75,Easy,1,61.95,1,Notes,Tutor-led
+4,Literature,134.06,92.35,Medium,5,67.92,4,Video,Group
+48,Chemistry,171.21,91.02,Easy,5,94.68,4,Flashcards,Online Forum
+32,Science,19.73,50.46,Medium,7,66.33,2,Textbook,Online Forum
+36,Biology,52.25,98.31,Easy,2,69.81,5,Video,Tutor-led
+25,Economics,78.45,75.72,Medium,7,59.34,1,Notes,Group
+32,History,98.23,77.52,Easy,1,98.25,4,Video,Online Forum
+40,History,88.11,55.08,Medium,3,92.37,4,Notes,Online Forum
+23,Physics,158.02,77.21,Medium,3,58.95,3,Online Course,Group
+30,Science,36.88,93.75,Medium,2,64.85,3,Flashcards,Group
+37,Physics,110.29,92.05,Easy,1,91.6,2,Video,Group
+27,Literature,89.09,73.46,Easy,5,75.23,5,Flashcards,Online Forum
+34,Biology,115.68,52.54,Easy,1,75.25,5,Flashcards,Tutor-led
+23,Economics,179.34,80.54,Hard,2,73.32,3,Flashcards,Solo
+40,Science,136.83,69.88,Medium,2,67.85,2,Textbook,Group
+11,Physics,84.91,54.18,Medium,1,93.14,2,Online Course,Online Forum
+39,Chemistry,152.67,96.13,Medium,5,85.7,2,Online Course,Tutor-led
+33,Literature,124.91,63.51,Easy,5,52.41,5,Online Course,Group
+26,History,128.55,66.32,Medium,7,70.19,3,Textbook,Online Forum
+42,Economics,24.23,73.69,Hard,6,91.66,2,Online Course,Solo
+40,Physics,45.06,51.32,Medium,2,97.62,2,Notes,Online Forum
+36,History,172.01,89.47,Hard,7,82.03,3,Notes,Online Forum
+38,Physics,54.32,79.66,Medium,7,58.12,1,Flashcards,Solo
+34,Biology,45.08,97.44,Hard,7,69.74,1,Video,Group
+8,History,128.69,58.74,Medium,6,55.37,1,Flashcards,Tutor-led
+43,History,106.73,85.86,Easy,2,87.35,2,Flashcards,Tutor-led
+43,Math,156.95,57.84,Easy,4,52.24,1,Textbook,Online Forum
+14,History,17.84,74.11,Easy,3,60.61,1,Flashcards,Online Forum
+48,Biology,20.85,70.69,Hard,3,97.5,3,Video,Online Forum
+18,Biology,164.08,55.03,Easy,7,73.41,3,Flashcards,Solo
+20,Economics,179.56,53.22,Hard,1,83.07,2,Video,Solo
+13,Literature,139.77,93.16,Medium,4,62.65,5,Flashcards,Solo
+25,Literature,169.15,76.27,Medium,3,91.82,2,Textbook,Group
+24,Literature,126.04,77.07,Easy,4,59.39,2,Flashcards,Solo
+15,Chemistry,15.21,73.8,Hard,2,99.51,1,Notes,Online Forum
+29,Chemistry,170.04,54.31,Hard,6,70.91,3,Online Course,Tutor-led
+35,Science,172.41,79.9,Medium,2,65.7,4,Textbook,Group
+27,Economics,88.3,56.05,Medium,5,55.62,4,Notes,Solo
+46,Physics,118.46,80.72,Easy,1,93.14,4,Online Course,Online Forum
+26,Literature,118.32,69.16,Hard,6,90.32,3,Video,Online Forum
+7,Literature,34.13,99.49,Medium,2,84.99,2,Video,Solo
+23,Chemistry,155.3,78.37,Medium,7,57.54,5,Notes,Online Forum
+31,Science,162.5,96.53,Hard,3,77.39,2,Online Course,Solo
+13,Biology,80.44,55.94,Hard,2,95.54,4,Notes,Solo
+30,Science,155.66,79.31,Medium,6,89.14,2,Online Course,Tutor-led
+49,Science,63.58,85.23,Medium,4,76.85,1,Flashcards,Online Forum
+33,Science,127.94,72.18,Easy,4,57.44,2,Notes,Solo
+5,Chemistry,63.98,56.9,Medium,2,52.79,5,Textbook,Group
+1,History,172.39,55.83,Medium,2,58.36,1,Flashcards,Online Forum
+33,Chemistry,43.21,58.82,Easy,5,93.98,1,Textbook,Group
+14,Physics,141.59,70.03,Hard,1,80.58,1,Online Course,Tutor-led
+5,Physics,40.27,92.68,Medium,4,97.02,3,Notes,Tutor-led
+41,Chemistry,44.89,99.09,Hard,3,64.97,2,Video,Solo
+8,Math,158.17,61.65,Easy,6,64.73,2,Textbook,Online Forum
+46,Literature,57.64,78.72,Easy,5,66.24,2,Notes,Group
+12,Physics,138.47,72.63,Easy,1,57.06,2,Textbook,Tutor-led
+47,Economics,70.5,77.78,Medium,1,76.98,2,Notes,Group
+24,Economics,143.75,65.33,Medium,4,76.34,4,Online Course,Tutor-led
+43,Literature,156.81,69.12,Medium,4,98.56,3,Online Course,Online Forum
+30,Economics,22.74,95.99,Medium,2,68.04,4,Textbook,Online Forum
+37,Literature,90.29,57.31,Easy,4,83.39,1,Video,Online Forum
+41,Physics,34.13,92.13,Medium,2,73.78,5,Notes,Tutor-led
+34,Math,94.94,83.17,Hard,4,54.88,1,Video,Tutor-led
+10,Chemistry,111.74,81.79,Hard,5,83.77,4,Video,Tutor-led
+47,Science,151.92,52.68,Hard,7,93.69,3,Online Course,Solo
+20,Literature,156.44,53.68,Easy,7,65.81,1,Flashcards,Online Forum
+8,Math,82.97,96.62,Easy,3,63.67,1,Video,Online Forum
+36,Math,137.94,67.75,Easy,2,62.27,2,Online Course,Group
+17,History,26.52,97.39,Medium,1,99.67,4,Flashcards,Solo
+48,Chemistry,48.82,87.02,Medium,4,70.08,2,Textbook,Group
+48,Science,148.62,68.27,Hard,7,62.31,1,Flashcards,Group
+47,Biology,138.89,75.48,Hard,7,83.17,5,Video,Online Forum
+18,Math,137.65,96.3,Easy,4,69.65,5,Video,Tutor-led
+14,History,18.17,52.81,Easy,5,98.56,3,Online Course,Online Forum
+38,Physics,52.74,62.21,Medium,2,97.03,1,Textbook,Group
+45,Economics,107.52,66.48,Medium,4,96.87,5,Flashcards,Tutor-led
+5,Physics,121.14,88.08,Medium,2,92.13,3,Online Course,Solo
