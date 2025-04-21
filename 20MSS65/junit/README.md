@@ -5,19 +5,19 @@ Structure of the program
 
 Eg.  
 ```
-StringCompare
-├── bin
-│   ├── StringCompare.class
-│   └── StringCompareTest.class
+.
 ├── lib
 │   ├── junit-jupiter-api-5.10.3.jar
 │   ├── junit-jupiter-engine-5.10.3.jar
 │   └── junit-platform-console-standalone-1.10.3.jar
-└── src
-    ├── StringCompare.java
-    └── StringCompareTest.java
+└── StringCompare
+    ├── bin
+    │   ├── StringCompare.class
+    │   └── StringCompareTest.class
+    └── src
+        ├── StringCompare.java
+        └── StringCompareTest.java
 ```
-
 
 ```bash
 $ javac -d bin src/<File>.java
